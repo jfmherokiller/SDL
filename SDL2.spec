@@ -18,7 +18,7 @@ BuildRequires: automake autoconf libtool
 %ifarch %{ix86}
 BuildRequires: nasm
 %endif
-
+%define _unpackaged_files_terminate_build 0
 %description
 Simple DirectMedia Layer (SDL) is a cross-platform multimedia library
 designed to provide fast access to the graphics frame buffer and audio
