@@ -1,6 +1,6 @@
 Summary: A cross-platform multimedia library
 Name: SDL2
-Version: 2.0.0
+Version: 2.0.5
 Release: 1%{?dist}
 # Source: http://www.libsdl.org/release/%{name}-%{version}.tar.gz
 # To create the repackaged archive use repackage.sh %{version}
